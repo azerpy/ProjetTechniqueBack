@@ -1,0 +1,14 @@
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\bin\Debug\netcoreapp2.1\projetTechniqueBack.deps.json
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\bin\Debug\netcoreapp2.1\projetTechniqueBack.runtimeconfig.json
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\bin\Debug\netcoreapp2.1\projetTechniqueBack.runtimeconfig.dev.json
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\bin\Debug\netcoreapp2.1\projetTechniqueBack.dll
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\bin\Debug\netcoreapp2.1\projetTechniqueBack.pdb
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.csprojAssemblyReference.cache
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.csproj.CoreCompileInputs.cache
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.RazorAssemblyInfo.cache
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.RazorAssemblyInfo.cs
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.AssemblyInfoInputs.cache
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.AssemblyInfo.cs
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.RazorTargetAssemblyInfo.cache
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.dll
+C:\Users\jonapy\source\repos\projetTechniqueBack\projetTechniqueBack\obj\Debug\netcoreapp2.1\projetTechniqueBack.pdb
