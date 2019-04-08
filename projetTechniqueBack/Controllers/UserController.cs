@@ -65,7 +65,7 @@ namespace projetTechniqueBack.Controllers
             {
                 _context.AuthentificationItems.Add(item);
                 await _context.SaveChangesAsync();
-                return Ok();
+                return await _context.AuthentificationItems.FindAsync(item.Id);
             }
             else
             {
@@ -90,7 +90,7 @@ namespace projetTechniqueBack.Controllers
                 return BadRequest();
             }
         }
-
+        
         //TODO: vérification si personne a le droit 
         // GET: api/Authentification/id
         [HttpPost("{id}")]
