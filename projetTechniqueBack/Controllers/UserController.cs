@@ -20,7 +20,25 @@ namespace projetTechniqueBack.Controllers
 
             if (_context.AuthentificationItems.Count() == 0)
             {
-                _context.AuthentificationItems.Add(new UserItem { Id = "toto", Mdp="toto" });
+                _context.AuthentificationItems.Add(new UserItem { Id = "toto@gmail.com", Mdp="toto",
+                    Nom="toto" ,
+                    Prenom= "toto",
+                    Age = 26,
+                    Poids= 73,
+                    Taille= 176,
+                    IsCoach = false
+                });
+                _context.AuthentificationItems.Add(new UserItem
+                {
+                    Id = "toto_coach@gmail.com",
+                    Mdp = "toto",
+                    Nom = "totoCoach",
+                    Prenom = "totoCoach",
+                    Age = 35,
+                    Poids = 85,
+                    Taille = 192,
+                    IsCoach = true
+                });
                 _context.SaveChanges();
             }
         }
@@ -93,10 +111,10 @@ namespace projetTechniqueBack.Controllers
         
         //TODO: vérification si personne a le droit 
         // GET: api/Authentification/id
-        [HttpPost("{id}")]
-        public async Task<ActionResult<UserItem>> getUserItem(string id)
+        [HttpPost("GetInfo")]
+        public async Task<ActionResult<UserItem>> getUserItem(UserItem user)
         {
-            var UserItem = await _context.AuthentificationItems.FindAsync(id);
+            var UserItem = await _context.AuthentificationItems.FindAsync(user.Id);
 
             if (UserItem == null)
             {
