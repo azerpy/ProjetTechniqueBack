@@ -31,6 +31,8 @@ namespace projetTechniqueBack
                 opt.UseInMemoryDatabase("TodoList"));
             services.AddDbContext<ExerciceContext>(opt =>
                 opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<EvenementContext>(opt =>
+                opt.UseInMemoryDatabase("TodoList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
